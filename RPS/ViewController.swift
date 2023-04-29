@@ -78,11 +78,15 @@ class ViewController: UIViewController {
         
         appSign.text = computerSign.emoji
         
-        rockButton.isEnabled     = false
-        paperButton.isEnabled    = false
-        scissorsButton.isEnabled = false
+        rockButton.isHidden           = true
+        paperButton.isHidden          = true
+        scissorsButton.isHidden       = true
         
-        playAgainButton.isHidden = false
+        rockButton.isEnabled          = false
+        paperButton.isEnabled         = false
+        scissorsButton.isEnabled      = false
+        
+        playAgainButton.isHidden      = false
     }
     
 }
