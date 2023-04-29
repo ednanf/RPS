@@ -13,6 +13,7 @@
 		801BAABB29FC988D00D4FF1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801BAAB929FC988D00D4FF1C /* Main.storyboard */; };
 		801BAABD29FC988E00D4FF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801BAABC29FC988E00D4FF1C /* Assets.xcassets */; };
 		801BAAC029FC988E00D4FF1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801BAABE29FC988E00D4FF1C /* LaunchScreen.storyboard */; };
+		801BAAC829FC98F700D4FF1C /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801BAAC729FC98F700D4FF1C /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		801BAABC29FC988E00D4FF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801BAABF29FC988E00D4FF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		801BAAC129FC988E00D4FF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801BAAC729FC98F700D4FF1C /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				801BAAB329FC988D00D4FF1C /* AppDelegate.swift */,
 				801BAAB529FC988D00D4FF1C /* SceneDelegate.swift */,
 				801BAAB729FC988D00D4FF1C /* ViewController.swift */,
+				801BAAC729FC98F700D4FF1C /* Sign.swift */,
 				801BAAB929FC988D00D4FF1C /* Main.storyboard */,
 				801BAABC29FC988E00D4FF1C /* Assets.xcassets */,
 				801BAABE29FC988E00D4FF1C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				801BAAB829FC988D00D4FF1C /* ViewController.swift in Sources */,
 				801BAAB429FC988D00D4FF1C /* AppDelegate.swift in Sources */,
+				801BAAC829FC98F700D4FF1C /* Sign.swift in Sources */,
 				801BAAB629FC988D00D4FF1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
