@@ -7,8 +7,9 @@
 
 import Foundation
 
+// Random number generator.
 func randomSign() -> Sign {
-    let sign = Int.random(in: 0...2)
+    let sign = Int.random(in: 0...2) // Only needs 3 numbers, one for each hand possibility.
     if sign == 0 {
         return .rock
     } else if sign == 1 {

@@ -33,7 +33,7 @@ enum GameState {
         case .lose:
             return .red
         case .draw:
-            return .yellow
+            return .systemGray
         }
     }
 }
